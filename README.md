@@ -6,7 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+    ruby '2.7.2.1'
 * System dependencies
 
 * Configuration
