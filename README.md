@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Chai Latte Rater App
 
-Things you may want to cover:
+This is the source code for that an app intended to let users rate different chai teas from different locations around Pittsburgh. Non-social non-aggregating(all ratings are unique to the user, not to userbase, users cannot see other users ratings or blurb)
 
-* Ruby version
+### In order to start working:
+You will need the following:
+    * Ruby 2.7.2
+    * Ruby on Rails 6.1.4.1
 
-* System dependencies
+If on a mac the gemfile will need to be updated to comment line ___
 
-* Configuration
+### What to do first
+After forking cloning:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Bundle update
+2. Bundle install
+3. rails s
