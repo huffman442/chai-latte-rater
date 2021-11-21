@@ -6,8 +6,8 @@ This is the source code for that an app intended to let users rate different cha
 
 ### In order to start working:
 You will need the following:
-    * Ruby 2.7.2
-    * Ruby on Rails 6.1.4.1
+* Ruby 2.7.2
+* Ruby on Rails 6.1.4.1
 
 If on a mac the gemfile will need to be updated to comment line ___
 
