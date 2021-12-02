@@ -18,3 +18,8 @@ After forking cloning:
 1. Bundle update
 2. Bundle install
 3. rails s
+
+### In order to contribute
+1. ruby bin/rails test
+2. git push
+3. make pull request
