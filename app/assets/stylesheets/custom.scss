@@ -1,0 +1,15 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$red : #b33f40;
+$light_brown : #c4c484;
+$white : #FFFFF0;
+$coffee_black : #0a0703;
+
+h1, h2, h3, h4, h5, h6, p {
+    color: $coffee_black;
+}
+
+body {
+    background-color: $white;
+}
