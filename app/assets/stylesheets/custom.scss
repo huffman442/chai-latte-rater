@@ -1,15 +1,24 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/notched-outline/mdc-notched-outline";
+@use "@material/textfield";
+  
 $red : #b33f40;
 $light_brown : #c4c484;
 $white : #FFFFF0;
 $coffee_black : #0a0703;
+html body {
+  --mdc-theme-primary: #b33f40;
+  --mdc-theme-secondary: #c4c484;
+}
+
 
 h1, h2, h3, h4, h5, h6, p {
     color: $coffee_black;
 }
 
 body {
-    background-color: $white;
+  background-color: $white;
 }
