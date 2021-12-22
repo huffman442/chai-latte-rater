@@ -1,10 +1,7 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-@use "@material/floating-label/mdc-floating-label";
-@use "@material/line-ripple/mdc-line-ripple";
-@use "@material/notched-outline/mdc-notched-outline";
-@use "@material/textfield";
-  
+@import '@material/textfield/mdc-text-field';
+
 $red : #b33f40;
 $light_brown : #c4c484;
 $white : #FFFFF0;
